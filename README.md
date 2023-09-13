@@ -35,3 +35,6 @@ Publish Pipeline
 Included in this example is a Github Action to illustrated automated publishing to an IBM catalog.  The supplied action makes the following assumptions as pre-requisites.
 1. a secret in the repo has been configured for a IBM Cloud api key for an account that has sufficient IAM permissions to provision resources.
 1. the Action imports, validates, publishes new versions as they are created when a git release is created.  It is assumed that the offerings have already been created in the target catalog which is done only once.
+
+
+      
