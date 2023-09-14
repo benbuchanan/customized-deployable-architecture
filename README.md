@@ -1,3 +1,5 @@
+This is a no operation change to the readme.
+
 # Custom Secure infrastructure on VPC 
 
 This repo provides an example customizing the public IBM [VSI on VPC landing zone](https://cloud.ibm.com/catalog/architecture/deploy-arch-ibm-slz-vsi-ef663980-4c71-4fac-af4f-4a510a9bcf68-global) deployable architecture by [enforcing a set of values](https://github.com/IBM/customized-deployable-architecture/blob/d108f371d346129373a456164b54172616281165/solutions/custom-slz/main.tf#LL10C4-L10C22) and providing a [json override](https://github.com/IBM/customized-deployable-architecture/blob/main/solutions/custom-slz/override.json) file for modifying the deployment architecture pattern with out the need to modify the actual code.  
