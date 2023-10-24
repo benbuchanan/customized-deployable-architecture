@@ -3,7 +3,7 @@
         {
             "name": "custom-deployable-arch",
             "label": "custom-deployable-arch",
-            "product_kind": "solution",
+            "product_kind": "module",
             "tags": ["network", "network_vpc"],
             "keywords": ["custom", "vpc", "secure", "baby"],
             "short_description": "Customized example for the landing zone solution using parameters and a json override.",
@@ -145,7 +145,7 @@
         {
             "name": "custom-apache",
             "label": "custom-apache",
-            "product_kind": "solution",
+            "product_kind": "module",
             "tags": ["network", "network_vpc", "ConsumerProducts", "Technology"],
             "keywords": ["apache", "web server"],
             "short_description": "Customized example showing an extension and fullstack delivery of an Apache server.",
