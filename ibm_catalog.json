@@ -183,7 +183,7 @@
             }
           ],
           "compliance": {
-            "authority": "scc-v3",
+            "authority": "scc-wp-v1",
             "controls": [
               {
                 "profile": {
@@ -422,7 +422,7 @@
           "install_type": "fullstack",
           "working_directory": "solutions/stack",
           "compliance": {
-            "authority": "scc-v3",
+            "authority": "scc-wp-v1",
             "controls": [
               {
                 "profile": {
