@@ -185,11 +185,8 @@
               {
                 "profile": {
                   "name": "IBM Cloud Framework for Financial Services",
-                  "version": "1.0.0"
-                },
-                "names": [
-                  "IA-3"
-                ]
+                  "version": "1.7.0"
+                }
               }
             ]
           },
@@ -424,11 +421,8 @@
               {
                 "profile": {
                   "name": "IBM Cloud for Financial Services",
-                  "version": "1.0.0"
-                },
-                "names": [
-                    "IA-3"
-                ]
+                  "version": "1.7.0"
+                }
               }
             ]
           },
