@@ -43,6 +43,7 @@ variable "subnet_id" {
 
 variable "resource_group_id" {
   description = "The id of the resource group where the virtual server is to be created."
+  default = "Default"
   type = string
 }
 
