@@ -1,149 +1,6 @@
 {
   "products": [
     {
-      "name": "deploy-arch-ibm-gm-test-slz",
-      "label": "Test SLZ",
-      "product_kind": "solution",
-      "tags": [
-        "network",
-        "network_vpc"
-      ],
-      "keywords": [
-        "custom",
-        "vpc",
-        "secure",
-        "baby"
-      ],
-      "short_description": "Customized example for the landing zone solution using parameters and a json override.",
-      "long_description": "This example is designed to illustrate how to customize a solution to fit your needs.  This particular customization is a simple one.  The value of the deployment region has been set to 'us-east' to show to to satisfy a potential custom requirement.",
-      "offering_docs_url": "https://raw.githubusercontent.com/IBM/customized-deployable-architecture/main/README.md",
-      "offering_icon_url": "data:image/svg+xml;base64,PHN2ZyBpZD0iVlNJb25WUENSZWd1bGF0ZWRJbmR1c3RyaWVzIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2aWV3Qm94PSIwIDAgMzIgMzIiPjxkZWZzPjxsaW5lYXJHcmFkaWVudCBpZD0ibWx5Z3RvdnNiYSIgeDE9Ii0xODU1LjIzMyIgeTE9Ii0yOTkyLjQxNSIgeDI9Ii0xODU1LjIzMyIgeTI9Ii0zMDEyLjAzMSIgZ3JhZGllbnRUcmFuc2Zvcm09Im1hdHJpeCgxLjA2IDAgMCAtLjY2OSAxOTc0Ljk1MiAtMjAwMi41MTgpIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSI+PHN0b3Agb2Zmc2V0PSIwIi8+PHN0b3Agb2Zmc2V0PSIuOCIgc3RvcC1vcGFjaXR5PSIwIi8+PC9saW5lYXJHcmFkaWVudD48bGluZWFyR3JhZGllbnQgaWQ9IjhkaHNzaHNxMGIiIHgxPSIzMjguNTAzIiB5MT0iLTY0NTEuNzQxIiB4Mj0iMzI4LjUwMyIgeTI9Ii02NDcxLjM1NyIgZ3JhZGllbnRUcmFuc2Zvcm09Im1hdHJpeCgxLjA2IDAgMCAuNjY5IC0zMzguODgxIDQzNDguMzU4KSIgeGxpbms6aHJlZj0iI21seWd0b3ZzYmEiLz48bGluZWFyR3JhZGllbnQgaWQ9IjZlaXZwZzhiM2MiIHgxPSItOTUzLjI4MiIgeTE9Ii02NTQyLjI0MSIgeDI9Ii05NTMuMjgyIiB5Mj0iLTY1NDguMjIxIiBncmFkaWVudFRyYW5zZm9ybT0ibWF0cml4KDEuMDYgMCAwIC42NjkgMTAzNy4yNTQgNDM4OS45MTcpIiB4bGluazpocmVmPSIjbWx5Z3RvdnNiYSIvPjxsaW5lYXJHcmFkaWVudCBpZD0iM3NnYm8xcHBhZCIgeDE9Ii0xOTE1Ljk1OCIgeTE9Ii0zMTgyLjMyOCIgeDI9Ii0xOTE1Ljk1OCIgeTI9Ii0zMTg5LjkyMyIgZ3JhZGllbnRUcmFuc2Zvcm09Im1hdHJpeCgxLjA2IDAgMCAuNjY5IDIwNDkuNjQzIDIxMzUuMjk3KSIgeGxpbms6aHJlZj0iI21seWd0b3ZzYmEiLz48bGluZWFyR3JhZGllbnQgaWQ9InhtZ3I1Ym9paGYiIHgxPSIwIiB5MT0iMzIiIHgyPSIzMiIgeTI9IjAiIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIj48c3RvcCBvZmZzZXQ9Ii4xIiBzdG9wLWNvbG9yPSIjZWU1Mzk2Ii8+PHN0b3Agb2Zmc2V0PSIuOSIgc3RvcC1jb2xvcj0iIzhhM2ZmYyIvPjwvbGluZWFyR3JhZGllbnQ+PG1hc2sgaWQ9IjJ2aTFpbmIxcGUiIHg9IjAiIHk9Ii0xLjMxMiIgd2lkdGg9IjMyIiBoZWlnaHQ9IjM0LjYzIiBtYXNrVW5pdHM9InVzZXJTcGFjZU9uVXNlIj48cGF0aCBkPSJNMTYgMzAuMDE5Yy03LjcyIDAtMTQtNi4yOC0xNC0xNHM2LjI4LTE0IDE0LTE0IDE0IDYuMjggMTQgMTQtNi4yOCAxNC0xNCAxNHptMC0yNmMtNi42MTcgMC0xMiA1LjM4My0xMiAxMnM1LjM4MyAxMiAxMiAxMiAxMi01LjM4MyAxMi0xMi01LjM4My0xMi0xMi0xMnoiIHN0eWxlPSJmaWxsOiNmZmYiLz48cGF0aCBkPSJNMTYgMTYuMDE5aDE0LjcwOHYxNC43MDhIMTZ6TTcgMjAuMDE5bC02IDUuNDk0VjYuODI2bDYgNS4wMTV2OC4xNzh6TTIyIDEuMDE5aDguOTAxdjkuMThIMjJ6Ii8+PHBhdGggdHJhbnNmb3JtPSJyb3RhdGUoLTEzNSA5LjE5MyA1LjU3NCkiIHN0eWxlPSJmaWxsOnVybCgjbWx5Z3RvdnNiYSkiIGQ9Ik02LjAxNC0uOTg2aDYuMzU3djEzLjEySDYuMDE0eiIvPjxwYXRoIHRyYW5zZm9ybT0icm90YXRlKDEzNSA5LjE5MyAyNi40MzIpIiBzdHlsZT0iZmlsbDp1cmwoIzhkaHNzaHNxMGIpIiBkPSJNNi4wMTQgMTkuODcyaDYuMzU3djEzLjEySDYuMDE0eiIvPjxwYXRoIHRyYW5zZm9ybT0icm90YXRlKDE4MCAyNy4xNzggMTIuMDE5KSIgc3R5bGU9ImZpbGw6dXJsKCM2ZWl2cGc4YjNjKSIgZD0iTTI0IDEwLjAxOWg2LjM1N3Y0SDI0eiIvPjxwYXRoIHRyYW5zZm9ybT0icm90YXRlKC05MCAxOS41NCA0LjE5OCkiIHN0eWxlPSJmaWxsOnVybCgjM3NnYm8xcHBhZCkiIGQ9Ik0xNi4zNjEgMS42NThoNi4zNTd2NS4wOGgtNi4zNTd6Ii8+PHBhdGggZD0iTTkgMjEuMDE5SDNjLTEuMTAzIDAtMi0uODk3LTItMnYtNmMwLTEuMTAzLjg5Ny0yIDItMmg2YzEuMTAzIDAgMiAuODk3IDIgMnY2YzAgMS4xMDMtLjg5NyAyLTIgMnptLTYtOHY2aDYuMDAxdi02SDN6TTI3LjAwOCAxMC4wMTlIMjRjLTEuMTAzIDAtMi0uODk3LTItMlY1LjAxMWMwLTEuMTAzLjg5Ny0yIDItMmgzLjAwOGMxLjEwMyAwIDIgLjg5NyAyIDJ2My4wMDhjMCAxLjEwMy0uODk3IDItMiAyek0yNCA1LjAxMXYzLjAwOGgzLjAwOVY1LjAxMUgyNHoiIHN0eWxlPSJmaWxsOiNmZmYiLz48L21hc2s+PC9kZWZzPjxnIHN0eWxlPSJtYXNrOnVybCgjMnZpMWluYjFwZSkiPjxwYXRoIGlkPSJDb2xvciIgc3R5bGU9ImZpbGw6dXJsKCN4bWdyNWJvaWhmKSIgZD0iTTAgMGgzMnYzMkgweiIvPjwvZz48cGF0aCBkPSJNMjguMDIgMzBoLThjLTEuMTAzIDAtMi0uODk3LTItMnYtOGMwLTEuMTAzLjg5Ny0yIDItMmg4YzEuMTAzIDAgMiAuODk3IDIgMnY4YzAgMS4xMDMtLjg5NyAyLTIgMnptLTgtMTB2OGg4LjAwMXYtOEgyMC4wMnoiIHN0eWxlPSJmaWxsOiMwMDFkNmMiLz48L3N2Zz4K",
-      "module_info": {
-        "works_with": [
-        ]
-      },
-      "support_details": "This is a demonstration and no official support is given.",
-      "flavors": [
-        {
-          "label": "BabySLZ",
-          "name": "babyslz",
-          "install_type": "fullstack",
-          "working_directory": "solutions/custom-slz",
-          "usage_template": "module \"custom_arch\" {\n    source           = \"https://cm.globalcatalog.cloud.ibm.com/api/v1-beta/offering/source//${{workingDirectory}}?archive=tgz&catalogID=${{catalogID}}&flavor=${{flavor}}&kind=${{kind}}&name=${{name}}&version=${{version}}\"\n    prefix           = var.prefix\n    ssh_key          = var.ssh_key\n    ibmcloud_api_key = var.ibmcloud_api_key\n}\n\n",
-          "compliance": {
-            "authority": "scc-wp-v1",
-            "controls": [
-              {
-                "profile": {
-                  "name": "IBM Cloud Framework for Financial Services",
-                  "version": "1.7.0"
-                },
-		"names": [
-                  "IA-3"
-                ]
-              }
-            ]
-          },
-          "configuration": [
-            {
-              "key": "ssh_key",
-              "required": true
-            },
-            {
-              "key": "ibmcloud_api_key",
-              "required": true,
-              "type": "password"
-            },
-            {
-              "key": "prefix",
-              "required": true,
-              "type": "string"
-            }
-          ],
-          "outputs": [
-            {
-              "description": "ID of the IBM Cloud Schematics workspace. Returns null if not ran in Schematics",
-              "key": "schematics_workspace_id"
-            },
-            {
-              "description": "prefix used in this infrastructure",
-              "key": "prefix"
-            }
-          ],
-          "iam_permissions": [
-            {
-              "role_crns": [
-                "crn:v1:bluemix:public:iam::::serviceRole:Manager"
-              ],
-              "service_name": "appid"
-            },
-            {
-              "role_crns": [
-                "crn:v1:bluemix:public:iam::::role:Administrator"
-              ],
-              "service_name": "iam-identity"
-            },
-            {
-              "role_crns": [
-                "crn:v1:bluemix:public:iam::::serviceRole:Manager"
-              ],
-              "service_name": "kms"
-            },
-            {
-              "role_crns": [
-                "crn:v1:bluemix:public:iam::::serviceRole:Manager",
-                "crn:v1:bluemix:public:iam::::role:Administrator"
-              ],
-              "service_name": "is.vpc"
-            }
-          ],
-          "change_notices": {
-            "update": [
-              {
-                "title": "Updated ubuntu image",
-                "description": "Use ubuntu image \"ibm-ubuntu-22-04-5-minimal-amd64-1\" on the VSIs created."
-              },
-              {
-                "title": "Terraform runtime",
-                "description": "Support terraform runtime 1.6 and 1.7"
-              }
-            ]
-          },
-          "architecture": {
-            "descriptions": "",
-            "features": [
-              {
-                "title": "Customized",
-                "description": "Yes"
-              },
-              {
-                "title": "Separate VPC for workloads",
-                "description": "Yes"
-              },
-              {
-                "title": "Increases security with Key Management",
-                "description": "Yes"
-              },
-              {
-                "title": "Uses Floating IP address for access through the public internet",
-                "description": "Yes"
-              }
-            ],
-            "diagrams": [
-              {
-                "diagram": {
-                  "caption": "Baby SLZ variation",
-                  "url": "https://raw.githubusercontent.com/IBM/customized-deployable-architecture/main/images/baby-slz.svg",
-                  "metadata": []
-                },
-                "description": "Baby SLZ variation is a customization of VSI on VPC landing zone deployable architecture.  It illustrates a very minimal VPC with a single VSI configured with a floating point IP address.\nIt is useful for a quick, inexpensive deployment that may be used for development of extensions as well as enabling learning more about deployable architectures with a simple example."
-              }
-            ]
-          }
-        }
-      ]
-    },
-    {
       "name": "deploy-arch-ibm-gm-custom-apache",
       "label": "Custom Apache",
       "product_kind": "solution",
@@ -172,112 +29,22 @@
           "name": "standard",
           "install_type": "fullstack",
           "working_directory": "solutions/apache-workload",
-          "usage_template": "module \"custom_apache\" {\n source                    = \"https://cm.globalcatalog.cloud.ibm.com/api/v1-beta/offering/source//${{workingDirectory}}?archive=tgz&catalogID=${{catalogID}}&flavor=${{flavor}}&kind=${{kind}}&name=${{name}}&version=${{version}}\"\n  ibmcloud_api_key          = var.ibmcloud_api_key\n  prerequisite_workspace_id = var.prerequisite_workspace_id\n  ssh_private_key          =var.ssh_private_key\n}\n\n",
-          "scripts": [
-            {
-              "type": "ansible",
-              "short_description": "Run ansible after deployment and install Apache",
-              "path": "scripts/deploy-post-ansible-playbook.yaml",
-              "stage": "post",
-              "action": "deploy"
-            }
-          ],
-          "compliance": {
-            "authority": "scc-wp-v1",
-            "controls": [
-              {
-                "profile": {
-                  "name": "IBM Cloud Framework for Financial Services",
-                  "version": "1.7.0"
-                },
-		"names": [
-                  "IA-3"
-                ]
-              }
-            ]
-          },
           "configuration": [
             {
-              "key": "appSecurityRules"
-            },
-            {
-              "custom_config": {
-                "grouping": "deployment",
-                "original_grouping": "deployment",
-                "type": "multiline_secure_value"
-              },
-              "key": "ssh_private_key",
-              "required": true,
-              "type": "password"
-            },
-            {
-              "key": "image"
-            },
-            {
-              "key": "ibmcloud_api_key",
-              "required": true,
-              "type": "password"
-            },
-            {
-              "key": "region"
-            },
-            {
-              "key": "fp_vsi_floating_ip_address"
-            },
-            {
-              "key": "prefix"
-            },
-            {
-              "key": "resource_group_id"
-            },
-            {
-              "key": "ssh_key_id"
-            },
-            {
-              "key": "subnet_id"
-            },
-            {
-              "key": "vpc_id"
+              "key": "resource_group_id",
+				"required": true,
+			  "custom_config": {
+					"type": "resource_group",
+					"grouping": "deployment",
+					"original_grouping": "deployment",
+					"config_constraints": {
+						"identifier": "rg_id"
+					}
+				}
             }
           ],
           "dependency_version_2": true,
           "dependencies": [
-            {
-              "catalog_id": "1082e7d2-5e2f-0a11-a3bc-f88a8e1931fc",
-              "id": "d4620be3-54bd-49d8-b7ca-fae3cd5394b5-global",
-              "name": "deploy-arch-ibm-gm-test-slz",
-              "version": ">=0.0.86",
-              "flavors": [
-                "babyslz"
-              ],
-              "input_mapping": [
-                {
-                  "dependency_output": "resource_group_id",
-									"version_input": "resource_group_id"
-                },
-                {
-                  "dependency_output": "workload_vsi_fip",
-									"version_input": "fp_vsi_floating_ip_address"
-                },
-                {
-                  "dependency_output": "workload_subnet_id",
-									"version_input": "subnet_id"
-                },
-                {
-                  "dependency_output": "ssh_key_id",
-									"version_input": "ssh_key_id"
-                },
-                {
-                  "dependency_output": "prefix",
-									"version_input": "prefix"
-                },
-                {
-                  "dependency_output": "workload_vpc_id",
-									"version_input": "vpc_id"
-                }
-              ],
-              "optional": false
-            }
           ],
           "iam_permissions": [
             {
