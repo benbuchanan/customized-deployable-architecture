@@ -13,13 +13,10 @@ variable "ibmcloud_api_key" {
   sensitive   = true
 }
 
-# configure the terraform provider and direct it to the same region where the 
-# custom secure infrastructure resources were deployed.
 variable "region" {
-  type    = string
-  default = "us-east"
+  description = "The IBM Cloud region to use for deploying resources."
+  type = string
 }
-
 variable "prefix" {
   type    = string
   description = "Prefix string for resources created."

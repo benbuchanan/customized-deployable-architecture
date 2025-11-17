@@ -45,6 +45,11 @@
                             "type": "password"
                         },
                         {
+                            "key": "region",
+                            "required": true,
+                            "type": "string"
+                        },
+                        {
                             "key": "prefix",
                             "required": true,
                             "type": "string"
@@ -88,7 +93,6 @@
                         }
                     ],
                     "architecture": {
-                        "descriptions": "",
                         "features": [
                             {
                                 "title": "Customized",
@@ -255,6 +259,10 @@
                                 {
                                     "dependency_output": "workload_vpc_id",
                                     "version_input": "vpc_id"
+                                },
+                                {
+                                    "dependency_output": "region",
+                                    "version_input": "region"
                                 }
                             ],
                             "optional": false    
@@ -300,7 +308,6 @@
                         }
                     ],
                     "architecture": {
-                        "descriptions": "",
                         "features": [
                             {
                                 "title": "Customized",

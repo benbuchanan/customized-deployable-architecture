@@ -1,7 +1,7 @@
 {
     "$schema": "http://json-schema.org/draft-07/schema#",
     "title": "Schema for Global Catalog manifest",
-	"description": "version 1.0.2",
+	"description": "version 1.0.8",
     "type": "object",
     "properties": {
         "products": {
@@ -83,10 +83,7 @@
                                     ]
                                 }
                             }
-                        },
-                        "required": [
-                            "works_with"
-                        ]
+                        }
                     },
                     "support_details": {
                         "type": "string"
@@ -217,6 +214,10 @@
                                 },
                                 "compliance": {
                                     "type": "object",
+                                    "anyOf": [
+                                        {"required": ["controls"]},
+                                        {"required": ["profiles"]}
+                                    ],
                                     "properties": {
                                         "authority": {
                                             "type": "string"
@@ -253,11 +254,28 @@
                                                     "names"
                                                 ]
                                             }
+                                        },
+                                        "profiles": {
+                                            "type": "array",
+                                            "items": {
+                                                "type": "object",
+                                                "properties": {
+                                                    "profile_name": {
+                                                        "type": "string"
+                                                    },
+                                                    "profile_version": {
+                                                        "type": "string"    
+                                                    }
+                                                },
+                                                "required": [
+                                                    "profile_name",
+                                                    "profile_version"
+                                                ]    
+                                            }        
                                         }
                                     },
                                     "required": [
-                                        "authority",
-                                        "controls"
+                                        "authority"
                                     ]
                                 },
                                 "licenses": {
@@ -274,8 +292,7 @@
                                             }
                                         },
                                         "required": [
-                                            "name",
-                                            "url"
+                                            "name"
                                         ]
                                     }
                                 },
@@ -322,10 +339,12 @@
                                         },
                                         "required": [
                                             "id",
-                                            "name",
-                                            "version"
+                                            "name"
                                         ]
                                     }
+                                },
+                                "dependency_version_2": {
+                                    "type": "boolean"
                                 },
                                 "configuration": {
                                     "type": "array",
@@ -355,11 +374,12 @@
                                                 "properties": {
                                                     "type": {
                                                         "type": "string",
-														"enum": [ "array", "cluster_var", "json_editor",
+														"enum": [ "array", "cluster_var", "code_editor", "json_editor",
 															"multiline_secure_value", "platform_resource",
 															"power_iaas", "preset_configuration", "region",
 															"resource_group", "schematics_workspace", "textarea",
-															"vpc", "vpc_region", "vpc_ssh_key"
+															"vpc", "vpc_region", "vpc_ssh_key", "worker_node_flavors",
+                                                            "secret_group", "secret", "kms_key"
 														]
                                                     },
                                                     "grouping": {
@@ -415,10 +435,7 @@
                                                             }
                                                         }
                                                     }
-                                                },
-                                                "required": [
-                                                    "type"
-                                                ]
+                                                }
                                             }
                                         },
                                         "required": [
@@ -452,9 +469,6 @@
                                     "type": "object",
                                     "markdownDescription": "A description of the architecture of this variation. Includes one or more diagrams and descriptions.",
                                     "properties": {
-                                        "description": {
-                                            "type": "string"
-                                        },
                                         "features": {
                                             "type": "array",
                                             "items": {
